@@ -1,0 +1,68 @@
+$main-font-color: white;
+$second-font-color: #FFCC03;
+$body-font-color: rgb(51,51,51);
+$body-font-color-opacity: rgba(51, 51, 51, 0.8);
+$body-font-color-opacity2: rgba(51, 51, 51, 0.9);
+$nav-color: #a0a0a0;
+$top-section: rgb(51,51,51);
+$color-box: #FFCC03;
+$banner-main-text: #FFCC03;
+$banner-second-text: white;
+
+body {
+  color: $body-font-color;
+}
+
+#home {
+  background-color: $top-section;
+}
+
+.banner-text-medium {
+  color: $banner-main-text;
+}
+
+.banner-text-small {
+  color: $banner-second-text;
+}
+
+.color-box {
+  background-color: $color-box;
+}
+
+.skills-box {
+  color: $body-font-color;
+}
+
+.projects-content .projects-content-hover {
+  background: $body-font-color-opacity;
+}
+
+.projects-content .projects-content-hover a,
+.projects-content .projects-content-hover p {
+	color: $main-font-color;
+}
+
+.contact-box a {
+  color: $body-font-color;
+}
+
+.contact-box-bottom {
+  .fa-linkedin {
+    color: $body-font-color;
+    &:hover {
+      color: #1884BB;
+    }
+  }
+  .fa-github {
+    color: $body-font-color;
+    &:hover {
+      color: #323131;
+    }
+  }
+  .fa-facebook {
+    color: $body-font-color;
+    &:hover {
+      color: #3B5998;
+    }
+  }
+}

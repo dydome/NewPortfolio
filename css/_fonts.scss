@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Andika&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese');
+
+$main-font: 'Andika', sans-serif;
+$second-font: 'Amatic SC', cursive;
+
+body {
+  font-family: $main-font;
+}
+
+nav ul li {
+  font-size: 1.2em;
+}
+
+.home-banner-text {
+  font-family: $second-font;
+}
+
+.banner-text-big {
+  font-family: $second-font;
+  font-size: 3em;
+}
+
+.banner-text-medium {
+  font-family: $second-font;
+  font-size: 2.5em;
+}
+
+.banner-text-small {
+  font-family: $second-font;
+  font-size: 1.9em;
+}
+
+.bigger-text {
+  font-weight: bold;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.vertical-text {
+  font-family: $second-font;
+}
+
+.vertical-text-1,
+.vertical-text-2 {
+  @extend .vertical-text;
+  font-size: 33px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.color-box {
+  @extend .vertical-text;
+  font-size: 3em;
+}
+
+.content-box {
+  font-size: 1em;
+}
+
+.skills-box p {
+  font-family: $second-font;
+  font-size: 1.5em;
+  margin: 15px;
+}
+
+.contact-slogan {
+  font-size: 1.3em;
+  padding-top: 15px;
+}
+
+.contact-box {
+  i {
+    font-size: 60px;
+  }
+  p {
+    font-size: 1.25em;
+  }
+  p a {
+    font-size: 0.6em;
+  }
+}
+
+.contact-box-bottom {
+  font-size: 40px;
+  i {
+    margin: 0 15px;
+    cursor: pointer;
+  }
+}

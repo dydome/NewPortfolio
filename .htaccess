@@ -1,0 +1,71 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www.michaldydo.pl(.*) [NC]
+RewriteRule ^(.*)$ http://michaldydo.pl/$1 [R=301,L]
+
+RewriteRule ^index.(php|html|htm)$ / [R=301,L]
+RewriteRule ^([a-z0-9-_]+)/index.(php|html|htm)$ /$1/ [R=301,L]
+
+RewriteRule ^([a-z0-9-_]+)$ http://%{HTTP_HOST}/$1/ [R=301]
+
+## EXPIRES CACHING ##
+
+<IfModule mod_expires.c>
+
+ExpiresActive On
+
+ExpiresByType images/50webprojects3.png "access 1 year"
+
+ExpiresByType images/restcountriestable3.png "access 1 year"
+
+ExpiresByType images/randomquotemachine3.png "access 1 year"
+
+ExpiresByType images/kanbantableajax3.png "access 1 year"
+
+ExpiresByType images/rockpaperscissors3.png "access 1 year"
+
+ExpiresByType images/guessanumber3.png "access 1 year"
+
+ExpiresByType images/owncarousel3.png "access 1 year"
+
+ExpiresByType images/ogrody-dydo3.png "access 1 year"
+
+ExpiresByType images/oldportfolio3.png "access 1 year"
+
+ExpiresByType images/ja2.jpg "access 1 year"
+
+ExpiresByType images/sass.jpg "access 1 year"
+
+ExpiresByType images/rwd.jpg "access 1 year"
+
+ExpiresByType images/react.jpg "access 1 year"
+
+ExpiresByType images/photoshop.jpg "access 1 year"
+
+ExpiresByType images/js.jpg "access 1 year"
+
+ExpiresByType images/jquery.jpg "access 1 year"
+
+ExpiresByType images/html5.jpg "access 1 year"
+
+ExpiresByType images/git.jpg "access 1 year"
+
+ExpiresByType images/es6.jpg "access 1 year"
+
+ExpiresByType images/ember.jpg "access 1 year"
+
+ExpiresByType images/css.jpg "access 1 year"
+
+ExpiresByType images/bs.jpg "access 1 year"
+
+ExpiresByType images/backbone.jpg "access 1 year"
+
+ExpiresByType images/angular.jpg "access 1 year"
+
+ExpiresByType images/ajax.jpg "access 1 year"
+
+ExpiresByType js/main.js "access 1 year"
+
+</IfModule>
+
+## EXPIRES CACHING ##
