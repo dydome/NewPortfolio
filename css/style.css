@@ -69,10 +69,6 @@ nav ul li {
   font-family: "Amatic SC", cursive;
   font-size: 1.9em; }
 
-.banner-text-small-xs {
-  font-family: "Amatic SC", cursive;
-  font-size: 1.3em; }
-
 .bigger-text {
   font-weight: bold; }
 
@@ -201,11 +197,7 @@ nav {
   align-items: center; }
 
 #portfolio .color-box {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; }  
+  flex-direction: column; }
 
 .content-box {
   text-align: center;
@@ -403,7 +395,7 @@ nav {
   top: 50%;
   transform: translateY(-50%); }
 
-.project-style, .project-1, .project-2, .project-3, .project-4, .project-5, .project-6, .project-7, .project-8, .project-9, .project-10, .project-11, .project-12  {
+.project-style, .project-1, .project-2, .project-3, .project-4, .project-5, .project-6, .project-7, .project-8, .project-9, .project-10, .project-11, .project-12 {
   display: block;
   background-repeat: no-repeat;
   background-position: center;
